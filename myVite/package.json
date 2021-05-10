@@ -14,7 +14,6 @@
     "es-module-lexer": "^0.4.1",
     "koa": "^2.13.1",
     "koa-static": "^5.0.0",
-    "magic-string": "^0.25.7",
-    "mime-types": "^2.1.30"
+    "magic-string": "^0.25.7"
   }
 }

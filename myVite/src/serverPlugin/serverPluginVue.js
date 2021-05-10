@@ -13,6 +13,7 @@ function serverPluginVue({ app, root }) {
       // 找到请求文件在项目中的路径
       const filePath = path.join(root, '../', reqPath);
 
+      // sfc 内容
       const originContent = await fs.readFile(filePath, 'utf-8');
 
 
@@ -31,6 +32,7 @@ function serverPluginVue({ app, root }) {
         const res = compileTemplate({ source: templateContent });
         code = res.code;
       } else {
+        // 第一次是没有type template的查询参数，这个参数只要是为了标识单独去解析template模版
         // 解析script
         // url上没有type查询参数
        

@@ -32,6 +32,6 @@ function createServer() {
   return app;
 }
 
-createServer().listen(4001, () => {
-  console.log('server running at 4001');
+createServer().listen(4000, () => {
+  console.log('server running at 4000');
 })

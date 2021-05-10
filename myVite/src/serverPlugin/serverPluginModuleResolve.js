@@ -14,6 +14,7 @@ function serverPluginModuleResolve({ app, root }) {
 
       const resolveId = reqPath.replace(regExp, '');
 
+      // 统一维护packgae 映射表
       const mapImports = {
         vue: path.resolve(root, '../', 'node_modules', '@vue/runtime-dom/dist/runtime-dom.esm-browser.js'),
       }
