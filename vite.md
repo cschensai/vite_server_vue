@@ -18,7 +18,7 @@
 
 ### 构建流程
 
-#### 基于打包器的开发服务器
+#### 基于webpack打包器的开发服务器
 
 ![image-20210423100756905](/Users/chensai/Library/Application Support/typora-user-images/image-20210423100756905.png)
 
